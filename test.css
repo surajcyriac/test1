@@ -104,22 +104,25 @@ font-family: "Playwrite BE VLG", cursive;
 height: 600px;}
 
 
-.skftpart2 {
+.skftpart2{
     padding: 40px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    /* margin-left: 180px; */
-    width: 100%;
-align-content: center;
+    justify-content: space-evenly;
 }
 .skftvideo{
-    padding: 20px;
+    width: 400px;
 }
 .skftvideo img{
-   width:device-width;
-    /* height: 300px; */
+   width:100%;
 }
 
+@media(max-width:600){
+    .skftvideo {
+        width:200px;
+     }
+}
 
 
 /* part4 */
